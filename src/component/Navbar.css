@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.btn-log{
+    padding:5px 20px;
+    border-radius:2px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}

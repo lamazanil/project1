@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:75%;
+    margin: auto;
+    margin-top:60px;
+  }
+.text{
+    width:50%;
+    height:72vh;
+    position:relative;
+
+}
+.description{
+    position: absolute;
+    width:80%;
+    margin-top:40px;
+    line-height:24px;
+}
+.btn{
+    position: absolute;
+    width: 80%;
+   left: 0px;
+    display: flex;
+    align-items: center;
+    margin-top:180px;
+    gap:35px;
+}
+.available{
+    position: absolute;
+    bottom: 0;
+}
+.text h1{
+    font-size:80px;
+}
+.picture{
+width:60%;
+height:72vh;
+}
+
+.btn button{
+    padding:10px 50px;
+    border-radius:2px;
+    border: 1px solid black;
+}
+.btn .shop{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
